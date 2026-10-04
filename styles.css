@@ -7,9 +7,13 @@ background-size: 100% 100%;
 a {
   text-decoration: none;
 }
- img {
-   max-width: 100%;
-   min-height: 100%;
+img {
+  max-width: 100%;
+  min-height: 100%;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
 }
 @media (min-height: 333px) {
   img {
